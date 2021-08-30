@@ -20,33 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8ee4e72-61b7-4577-ac45-2b2770421b79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/Strategies/DefaultPricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/Strategies/PricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/exceptions/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilterDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilterStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/BookingStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/LocationAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Trip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/TripStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/VehicleStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/vehicles/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/BookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/FloorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/ParkingLotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/SpotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/VehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/utils/TokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/utils/ValidationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/repositories/CustomerRepositoryInMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/repositories/DriverRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/repositories/DriverRepositoryInMemoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/repositories/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/repositories/VehicleRepositoryInMemoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilterDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilterDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilterStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilterStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/TripStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/TripStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/vehicles/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +107,7 @@
       <updated>1630307993926</updated>
       <workItem from="1630307999122" duration="111000" />
       <workItem from="1630308124640" duration="6371000" />
+      <workItem from="1630326092437" duration="1760000" />
     </task>
     <servers />
   </component>
@@ -137,10 +127,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1630318515664">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1630326883740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1630318515664" />
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1630326883740" />
     <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630313782707">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

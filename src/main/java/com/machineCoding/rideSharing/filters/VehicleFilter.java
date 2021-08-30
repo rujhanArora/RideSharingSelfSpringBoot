@@ -1,6 +1,6 @@
 package com.machineCoding.rideSharing.filters;
 
-import com.machineCoding.rideSharing.models.vehicles.Vehicle;
+import com.machineCoding.rideSharing.models.Vehicle;
 import org.springframework.stereotype.Component;
 
 @Component

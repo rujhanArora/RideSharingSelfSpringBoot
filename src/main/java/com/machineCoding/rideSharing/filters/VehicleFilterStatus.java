@@ -1,7 +1,7 @@
 package com.machineCoding.rideSharing.filters;
 
 import com.machineCoding.rideSharing.models.VehicleStatus;
-import com.machineCoding.rideSharing.models.vehicles.Vehicle;
+import com.machineCoding.rideSharing.models.Vehicle;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

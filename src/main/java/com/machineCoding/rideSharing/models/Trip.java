@@ -1,6 +1,5 @@
 package com.machineCoding.rideSharing.models;
 
-import com.machineCoding.rideSharing.models.vehicles.Vehicle;
 import com.machineCoding.rideSharing.utils.TokenUtil;
 import com.machineCoding.rideSharing.utils.ValidationUtil;
 import lombok.Data;

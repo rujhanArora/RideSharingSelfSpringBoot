@@ -1,20 +1,18 @@
 package com.machineCoding.rideSharing.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.Date;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class Customer extends BaseEntity {
+    @NonNull
     private Account account;
-    private String id;
+    @NonNull
     private String name;
+    @NonNull
     private String email;
+    @NonNull
     private Date dob;
 }
