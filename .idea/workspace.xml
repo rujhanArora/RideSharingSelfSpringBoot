@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8ee4e72-61b7-4577-ac45-2b2770421b79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/Strategies/DefaultPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/Strategies/PricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilterDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/filters/VehicleFilterStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/BookingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/LocationAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/TripStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/VehicleStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/vehicles/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/models/vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/FloorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/ParkingLotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/SpotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/services/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/utils/TokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing/utils/ValidationUtil.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1xRBPDBcRUbpJLFuK4zfCtnZj1T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/machineCoding/rideSharing" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RideSharingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rideSharing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.machineCoding.rideSharing.RideSharingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8ee4e72-61b7-4577-ac45-2b2770421b79" name="Default Changelist" comment="" />
+      <created>1630307993926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630307993926</updated>
+      <workItem from="1630307999122" duration="111000" />
+      <workItem from="1630308124640" duration="6371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1630318515664">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1630318515664" />
+    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630313782707">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1630313782707" />
+    <state x="361" y="196" width="717" height="676" key="search.everywhere.popup" timestamp="1630316143967">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="361" y="196" width="717" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1630316143967" />
+  </component>
+</project>
